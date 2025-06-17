@@ -44,8 +44,8 @@ body {
 
 /* Profile Picture Styling */
 .profile-pic {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%; /* Circular shape */
   border: 2px solid #B3D4FC; /* Light blue border */
   margin: 10px auto; /* Box model: Center with margin */
