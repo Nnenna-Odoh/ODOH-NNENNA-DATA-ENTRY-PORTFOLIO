@@ -1,0 +1,68 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF; /* White background */
+  color: #333333; /* Dark text for readability */
+  margin: 0; /* Box model: Remove default margin */
+  padding: 20px; /* Box model: Padding for content spacing */
+}
+
+/* Bootstrap Navbar Customization */
+.navbar {
+  background-color: #E6F0FA; /* Light blue background */
+  border-bottom: 1px solid #B3D4FC; /* Box model: Light blue border */
+  margin-bottom: 20px; /* Box model: Margin for spacing */
+  padding: 10px 15px; /* Box model: Padding for navbar content */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #004085; /* Darker blue for brand */
+}
+
+.nav-link {
+  color: #004085;
+}
+
+.nav-link:hover {
+  color: #007BFF; /* Bootstrap primary blue on hover */
+}
+
+/* Bootstrap Card Customization */
+.sample-card, .intro-card {
+  background-color: #E6F0FA; /* Light blue background */
+  border: 1px solid #B3D4FC; /* Box model: Light blue border */
+  margin: 20px auto; /* Box model: Center with margin */
+  padding: 15px; /* Box model: Internal padding */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box model: Subtle shadow for depth */
+  max-width: 800px;
+}
+
+.card-title {
+  color: #004085; /* Darker blue for headings */
+}
+
+/* Floating Paragraph for Descriptions */
+.card-text {
+  float: left; /* Float paragraph to the left */
+  width: 50%; /* Limit width to allow image wrapping */
+  margin-right: 20px; /* Box model: Margin to separate from image */
+  padding: 10px; /* Box model: Padding for text */
+  border-right: 1px solid #B3D4FC; /* Box model: Light blue border for separation */
+}
+
+/* Image Styling */
+.img-fluid {
+  max-width: 45%; /* Ensure image fits beside floating paragraph */
+  border: 1px solid #B3D4FC; /* Box model: Light blue border */
+  margin: 10px 0; /* Box model: Margin for spacing */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007BFF; /* Bootstrap blue for consistency */
+  border-color: #007BFF;
+}
+
+.btn-primary:hover {
+  background-color: #0056b
